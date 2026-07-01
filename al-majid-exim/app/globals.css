@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ivory-50 text-forest-900 font-body antialiased;
+}
+
+::selection {
+  @apply bg-gold-500/30 text-forest-950;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-ivory-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-forest-700 rounded-full border-2 border-ivory-100;
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #C9A15A;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@layer utilities {
+  .eyebrow {
+    @apply font-mono text-xs tracking-[0.28em] uppercase text-gold-600;
+  }
+
+  .glass {
+    @apply bg-white/10 backdrop-blur-xl border border-white/15;
+  }
+
+  .glass-light {
+    @apply bg-white/60 backdrop-blur-xl border border-white/70;
+  }
+
+  .container-px {
+    @apply px-6 md:px-10 lg:px-16;
+  }
+
+  .section-pad {
+    @apply py-20 md:py-28;
+  }
+
+  .text-gradient-gold {
+    background: linear-gradient(100deg, #EAD6A6 0%, #C9A15A 45%, #8C6A37 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .noise-overlay {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48ZmlsdGVyIGlkPSJuIj48ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC44NSIgbnVtT2N0YXZlcz0iMyIgc3RpdGNoVGlsZXM9InN0aXRjaCIvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbHRlcj0idXJsKCNuKSIgb3BhY2l0eT0iMC4wNSIvPjwvc3ZnPg==');
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
