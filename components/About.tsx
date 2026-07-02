@@ -31,11 +31,10 @@ export default function About() {
           <ScrollReveal direction="right">
             <div className="relative">
               <div className="relative overflow-hidden rounded-[2rem] shadow-card">
-                <Image
+                <img
                   src="https://images.unsplash.com/photo-1595855759920-86582396756c?q=80&w=1200&auto=format&fit=crop"
                   alt="Fresh Indian onions and produce sorted for export at Al Majid Exim"
-                  width={900}
-                  height={1000}
+        
                   className="h-[420px] w-full object-cover md:h-[540px]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-forest-950/50 via-transparent to-transparent" />
