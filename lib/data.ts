@@ -58,7 +58,7 @@ export const productCategories: {
         name: "White Onion",
         category: "Onions",
         image:
-          "https://images.unsplash.com/photo-1618512496793-be2e51a7b1c7?q=80&w=1200&auto=format&fit=crop",
+          "/images/white.jpg",
       },
     ],
   },
