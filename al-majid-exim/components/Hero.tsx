@@ -53,7 +53,7 @@ export default function Hero() {
             className="mt-6 max-w-xl text-lg leading-relaxed text-white/65"
           >
             We grow relationships the way we grow trade — carefully. Al Majid Exim exports
-            premium onions, vegetables, fruits and spices from India's finest farms to
+            premium onions, vegetables, fruits and spices from India&apos;s finest farms to
             markets across Asia and the Gulf.
           </motion.p>
 

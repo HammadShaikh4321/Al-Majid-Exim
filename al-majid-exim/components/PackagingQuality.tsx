@@ -40,7 +40,7 @@ export default function PackagingQuality() {
             <p className="mt-6 text-base leading-relaxed text-forest-800/80 sm:text-lg">
               Fresh produce is unforgiving — the right packaging is the difference between a
               satisfied buyer and a spoiled container. We choose materials and methods for each
-              product's specific shelf-life and climate profile.
+              product&apos;s specific shelf-life and climate profile.
             </p>
 
             <div className="mt-10 grid gap-6 sm:grid-cols-2">
