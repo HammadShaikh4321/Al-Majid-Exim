@@ -58,7 +58,7 @@ export const productCategories: {
         name: "White Onion",
         category: "Onions",
         image:
-          "/images/white.jpg",
+          "/Images/white.jpg",
       },
     ],
   },

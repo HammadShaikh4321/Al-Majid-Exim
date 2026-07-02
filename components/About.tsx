@@ -32,7 +32,7 @@ export default function About() {
             <div className="relative">
               <div className="relative overflow-hidden rounded-[2rem] shadow-card">
                 <img
-                  src="/images/onion.jpg"
+                  src="/Images/onion.jpg"
                   alt="Fresh Indian onions and produce sorted for export at Al Majid Exim"
         
                   className="h-[420px] w-full object-cover md:h-[540px]"
