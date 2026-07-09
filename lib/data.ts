@@ -175,7 +175,7 @@ export const productCategories: {
         name: "Red Chilli Powder",
         category: "Spices",
         image:
-          "/IMages/red.jpg",
+          "/Images/red.jpg",
       },
       {
         name: "Turmeric Powder",
