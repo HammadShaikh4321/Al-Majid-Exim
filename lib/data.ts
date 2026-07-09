@@ -97,7 +97,7 @@ export const productCategories: {
         name: "Green Chilli",
         category: "Vegetables",
         image:
-          "https://images.unsplash.com/photo-1583119022894-919a68a3d0e3?q=80&w=1200&auto=format&fit=crop",
+          "/Images/green.jpg",
       },
       {
         name: "Okra",
