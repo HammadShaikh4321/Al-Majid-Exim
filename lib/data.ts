@@ -130,7 +130,7 @@ export const productCategories: {
         name: "Pomegranate",
         category: "Fruits",
         image:
-          "/Images/pomo.jpg.",
+          "/Images/pomo.jpg",
       },
       {
         name: "Grapes",
@@ -175,13 +175,13 @@ export const productCategories: {
         name: "Red Chilli Powder",
         category: "Spices",
         image:
-          "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=1200&auto=format&fit=crop",
+          "/IMages/red.jpg",
       },
       {
         name: "Turmeric Powder",
         category: "Spices",
         image:
-          "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=1200&auto=format&fit=crop",
+          "/Images/turm.jpg",
       },
       {
         name: "Coriander Powder",
