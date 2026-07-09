@@ -91,7 +91,7 @@ export const productCategories: {
         name: "Ginger",
         category: "Vegetables",
         image:
-          "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?q=80&w=1200&auto=format&fit=crop",
+          "/Images/ginger.jpg",
       },
       {
         name: "Green Chilli",
@@ -130,13 +130,13 @@ export const productCategories: {
         name: "Pomegranate",
         category: "Fruits",
         image:
-          "https://images.unsplash.com/photo-1553279768-865429fa0078?q=80&w=1200&auto=format&fit=crop",
+          "/Images/pomo.jpg.",
       },
       {
         name: "Grapes",
         category: "Fruits",
         image:
-          "https://images.unsplash.com/photo-1599819177626-b6d087a80ba1?q=80&w=1200&auto=format&fit=crop",
+          "/Images/grape.jpg",
       },
       {
         name: "Banana",
@@ -187,7 +187,7 @@ export const productCategories: {
         name: "Coriander Powder",
         category: "Spices",
         image:
-          "https://images.unsplash.com/photo-1607672632350-30cddb8ea3e0?q=80&w=1200&auto=format&fit=crop",
+          "/Images/cori.jpg",
       },
       {
         name: "Export Quality Indian Spices",
